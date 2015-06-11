@@ -2,7 +2,7 @@
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
 </script>
 <script src="js/vendor/bootstrap.min.js"></script>
-<script src="dist/main.min.js"></script>
+<script src="dist/main.js"></script>
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     (function(b, o, i, l, e, r) {

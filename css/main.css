@@ -3,6 +3,10 @@
   padding-right: 0;
 }
 
+#signedOut, #signedIn {
+  display: none;
+}
+
 .infowindow {
   width: 100%;
   position: absolute;
@@ -10,6 +14,11 @@
   bottom: 0;
   padding: 5px;
   overflow: hidden;
+}
+@media screen and (max-width: 440px) {
+  .infowindow {
+    font-size: .8125em;
+  }
 }
 .infowindow .detail-box {
   display: none;
@@ -47,6 +56,8 @@
 }
 .infowindow.active .detail-box h3 {
   font-size: 1.5em;
+  margin-top: 0;
+  line-height: 1;
 }
 .infowindow.active .detail-box a.like-btn, .infowindow.active .detail-box a.like-btn:active, .infowindow.active .detail-box a.like-btn:link, .infowindow.active .detail-box a.like-btn:hover, .infowindow.active .detail-box a.like-btn:focus {
   color: white;
